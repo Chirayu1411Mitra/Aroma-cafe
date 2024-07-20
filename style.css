@@ -1,0 +1,90 @@
+#content{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(nafinia-putra-Kwdp-0pok-I-unsplash.jpg)  ;
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+ 
+    
+}
+
+.navbar{
+    background-color: rgb(223, 208, 133);
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+   position:fixed;
+}
+.navbar .logo{
+    flex-basis: 21%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .title{
+    flex-basis: 130%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.navbar .tabs{
+    flex-basis: 69%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.navbar .tabs .tab{
+   margin: 5px;
+   width: 100%;
+}
+.navbar .tabs .tab a{
+    text-decoration: none;
+    color: rgb(1, 1, 1); 
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    font-size: 20px;
+}
+
+
+.carousel-inner{
+    position: relative;
+    top: 10vw;
+}
+.carouselExample{
+    max-width: 1000%;
+    position: relative;
+    margin: auto;
+}
+#container{
+    padding-top: 85px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+   }
+#quote{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 400px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+#footer{
+
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
