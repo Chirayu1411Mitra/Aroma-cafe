@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Buy_now.css">
+    <script src="https://kit.fontawesome.com/db03bbf14e.js" crossorigin="anonymous"></script>
+</head>
+<body id="content">
+    <div class = "navbar" id="header" >
+        <div class="logo">
+            <img src="gold brown minimalist coffee cafe logo design.png" height="85" width="100" alt="logo">
+        </div>
+        <div class="title">
+            <h1>AROMA CAFE</h1>
+        </div>
+        <div class="tabs" id="tabs">
+           <div class="tab"><a href="./index.html">Home</a></div>
+           <div class="tab"><a href="./menu.html">Gallery</a></div>
+           <div class="tab"><a href="./But_now.html">Contact Us</a></div>  
+        </div>
+    </div>
+
+    <form id="buyNowForm" class="checkout-form">
+        <h2>Checkout</h2>
+        <div class="product-selection">
+          <h3>Select Your Product</h3>
+          <select id="product-select">
+            <option value="product1">Product 1 - $9.99</option>
+            <option value="product2">Product 2 - $14.99</option>
+            <option value="product3">Product 3 - $19.99</option>
+          </select>
+          <label for="special instruction">Special Instruction:</label><br>
+          <textarea id="Special Instruction" name="address"></textarea>
+        </div>
+        <div class="customer-info">
+          <h3>Customer Information</h3>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="payment">
+          <h3>Payment</h3>
+          </div>
+        <button type="submit">Place Order</button>
+      </form>
+      
+      <div id="footer">
+
+        <div class="contact-info">
+          <div class="find-us">
+            <h3>Find us here</h3>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></i></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="contact-details">
+            <h3>Contact with us</h3>
+            <p><a href="mailto:your_email@example.com">Send us e-mail</a></p>
+            <p>+91 123456789</p>
+          </div>
+          <div class="copyright">
+            © 2023 Aroma Cafe | All Rights Reserved 
+           
+          </div>
+      </div>
+</body>
+</html>
