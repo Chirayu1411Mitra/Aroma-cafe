@@ -29,7 +29,7 @@
     color: rgb(157, 139, 35);
     display: flex;
     align-items: center;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Roboto Mono", monospace; 
 
 }
 .navbar .tabs{
